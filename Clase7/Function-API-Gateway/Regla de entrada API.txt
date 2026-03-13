@@ -1,0 +1,16 @@
+<inbound>
+    <base />
+    <cors allow-credentials="false">
+        <allowed-origins>
+            <origin>*</origin>
+        </allowed-origins>
+        <allowed-methods>
+            <method>GET</method>
+            <method>PUT</method>
+            <method>OPTIONS</method>
+        </allowed-methods>
+        <allowed-headers>
+            <header>*</header>
+        </allowed-headers>
+    </cors>
+</inbound>
